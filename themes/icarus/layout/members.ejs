@@ -22,7 +22,10 @@
     if(user.solgnfontSize)  text += 'style="font-size:'+user.solgnfontSize+';"';
     text += '    >'+solgn+'.</p>';
     text += '    </div>';
-    text += '    <img class="friend-card-avatar" src="'+avatar+'">';
+    text += '    <img class="friend-card-avatar" src="'+avatar+'"';
+    if (typeof user.customAvatarStyle !== 'undefined')
+        text += ` style="${user.customAvatarStyle}"`
+    text += '>';
     text += '</div>';
     text += '<div class="friend-card-content">';
     text += '    <div class="friend-card-content-title"';
