@@ -6,7 +6,8 @@
             "blog":"https://blogs.mukeran.com",
             "avatar":"https://s1.ax1x.com/2020/05/11/YJPx78.th.png",
             "core":"1",
-            "skill":"Web"
+            "skill":"Web",
+            "customAvatarStyle": "width: 110px; height: 110px; border-radius: 0;"
         },
         {
             "name":"Kagurazaka Shinri",
