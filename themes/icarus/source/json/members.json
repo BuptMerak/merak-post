@@ -67,7 +67,7 @@
             "blog":"http://lordriot.live",
             "github":"",
             "core":"1",
-            "skill": "Crypto"
+            "skill": "Pwn"
         },
         {
             "name":"WellYeaRS",
@@ -133,7 +133,7 @@
             "avatar":"https://s1.ax1x.com/2020/05/09/Y1MPA0.th.png",
             "solgn":"Never give up",
             "blog":"https://www.cnblogs.com/LLeaves/",
-            "skill": "Pwn"
+            "skill": "Web"
         },
         {
             "name":"John_Doe",
@@ -231,7 +231,14 @@
              "solgn":"web也不会打只能给大佬端端水",
              "skill":"web",
              "blog":"https://blog.csdn.net/Logerrik"
-         }
+         },
+        {
+              "name":"Biing",
+              "avator":"https://s1.ax1x.com/2020/05/11/YGvaVJ.th.jpg",
+              "solgn":"无fa可缩",
+              "skill":"misc",
+               "blog":"https://www.cnblogs.com/biing/"
+        }
     ]
 
 }
