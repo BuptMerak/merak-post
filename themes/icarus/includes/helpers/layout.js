@@ -32,7 +32,7 @@ module.exports = function (hexo) {
 
     hexo.extend.helper.register('column_count', function () {
         let columns = 1;
-        if (this.page.__post === true || this.page.__page === true) {
+        if (this.page.__post === true || this.page.__page === true || this.page.__members === true) {
             return 2;
         }
         const hasColumn = hexo.extend.helper.get('has_column').bind(this);

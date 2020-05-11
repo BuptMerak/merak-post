@@ -31,6 +31,7 @@ navbar:
         Archives: /archives
         Categories: /categories
         Tags: /tags
+        Members: /members
     # Navigation bar links to be shown on the right
     links:
         #Download on GitHub:
