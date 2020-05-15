@@ -87,21 +87,24 @@ function showUsers(UserList){
     userData = "";
 
     userData += "<br>";
-    userDatas += "<h3>提供过帮助的dalao</h3>";
+    userData += "<br>";
     userData += "<h3>队员</h3>";
     userData += "<br>";
+    friendsData = "<h3>提供帮助的dalao们</h3>";
+    friendsData+="<br>";
+    friendsData+="<br>";
     for(var i = 0;i<UserList.length;i++){
         if(UserList[i].core==1){
             coreuserData += getAuthor(UserList[i]);
             continue;    
         }
         if(UserList[i].core==2){
-            userDatas += getAuthor(UserList[i]);
+            friendsData += getAuthor(UserList[i]);
             continue;
         }
             userData+= getAuthor(UserList[i]);    
     }
-    showText = coreUserData+userData+userDatas;
+    showText = coreUserData+userData+friendsData;
 
     document.getElementsByClassName("authorWapper")[0].innerHTML = showText;
 }
