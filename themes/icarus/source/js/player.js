@@ -87,16 +87,18 @@ function showUsers(UserList){
     userData = "";
 
     userData += "<br>";
-    userData += "<br>";
+    userDatas += "<h3>提供过帮助的dalao</h3>";
     userData += "<h3>队员</h3>";
     userData += "<br>";
     for(var i = 0;i<UserList.length;i++){
-        if(!UserList[i].core){
-            userData += getAuthor(UserList[i]);
-        }else{
-            coreUserData += getAuthor(UserList[i]);
+        if(UserList[i].core==1){
+            coreuserData += getAuthor(UserList[i]);
+        }else if(UserList[i].core==2){
+            userDatas += getAuthor(UserList[i]);
         }
-        
+        else {
+            userData+= getAuthor(UserList[i]);
+        }
     }
     showText = coreUserData + userData;
 
