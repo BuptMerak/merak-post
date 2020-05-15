@@ -2,6 +2,15 @@
     "data":
     [
         {
+            "name":"Sndav",
+            "blog":"https://blog.naive.codes/",
+            "github":"https://github.com/Sndav",
+            "avatar":"https://avatars1.githubusercontent.com/u/10370671?s=400&v=4",
+            "core":"2",
+            "skill":"递茶",
+            "solgn":"滑水菜鸡"
+        },
+        {
             "name":"mukeran",
             "blog":"https://blogs.mukeran.com",
             "avatar":"https://s1.ax1x.com/2020/05/11/YJPx78.th.png",
@@ -20,8 +29,7 @@
             "name":"Kevin-Li",
             "avatar":"https://s1.ax1x.com/2020/05/11/YGtdte.th.jpg",
             "solgn":"正心，取势，明道，优术。",
-            "blog":"https://inf.link/",
-            "core":"1",        
+            "blog":"https://inf.link/",  
             "skill": "Web"
         },
         {
