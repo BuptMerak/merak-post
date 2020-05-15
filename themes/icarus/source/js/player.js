@@ -93,14 +93,15 @@ function showUsers(UserList){
     for(var i = 0;i<UserList.length;i++){
         if(UserList[i].core==1){
             coreuserData += getAuthor(UserList[i]);
-        }else if(UserList[i].core==2){
+        }
+        else if(UserList[i].core==2){
             userDatas += getAuthor(UserList[i]);
         }
         else {
             userData+= getAuthor(UserList[i]);
         }
     }
-    showText = coreUserData + userData;
+    showText = coreUserData+userData+userDatas;
 
     document.getElementsByClassName("authorWapper")[0].innerHTML = showText;
 }
