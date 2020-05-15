@@ -93,13 +93,13 @@ function showUsers(UserList){
     for(var i = 0;i<UserList.length;i++){
         if(UserList[i].core==1){
             coreuserData += getAuthor(UserList[i]);
+            continue;    
         }
-        else if(UserList[i].core==2){
+        if(UserList[i].core==2){
             userDatas += getAuthor(UserList[i]);
+            continue;
         }
-        else {
-            userData+= getAuthor(UserList[i]);
-        }
+            userData+= getAuthor(UserList[i]);    
     }
     showText = coreUserData+userData+userDatas;
 
