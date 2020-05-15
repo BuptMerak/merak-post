@@ -99,15 +99,21 @@ function showUsers(UserList){
     userData += "<br>";
     userData += "<h3 style='font-size: large;'>队员</h3>";
     userData += "<br>";
+    friendsData+="<br>";
+    friendsData+="<h3 style='font-size: large;'>提供帮助的Dalao们</h3>";
+    friendsData+="<br>";
     for(var i = 0;i<UserList.length;i++){
         if(!UserList[i].core){
             userData += getAuthor(UserList[i]);
         }else{
+            if(UserList[i].core==2)
+            friendsData+=getAuthor(UserList[i]);
+            else
             coreUserData += getAuthor(UserList[i]);
         }
         
     }
-    showText = coreUserData + userData;
+    showText = friendsData+coreUserData + userData;
 
     document.getElementsByClassName("authorWapper")[0].innerHTML = showText;
 }
