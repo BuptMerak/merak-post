@@ -4,7 +4,7 @@
 </div>
 
 <script>
-    function getAuthor(user){
+     function getAuthor(user){
     name=user.name;
     if(user.avatar) avatar=user.avatar;
     else avatar="/images/avatar.png";
@@ -107,7 +107,7 @@ function showUsers(UserList){
         }
         
     }
-    showText =coreUserData + userData;
+    showText = coreUserData + userData;
 
     document.getElementsByClassName("authorWapper")[0].innerHTML = showText;
 }
