@@ -99,7 +99,6 @@ function showUsers(UserList){
     userData += "<br>";
     userData += "<h3 style='font-size: large;'>队员</h3>";
     userData += "<br>";
-    friendsData+="<br>";
     friendsData+="<h3 style='font-size: large;'>提供帮助的Dalao们</h3>";
     friendsData+="<br>";
     for(var i = 0;i<UserList.length;i++){
@@ -113,7 +112,7 @@ function showUsers(UserList){
         }
         
     }
-    showText =coreUserData + userData+friendsData;
+    showText =coreUserData + userData;
 
     document.getElementsByClassName("authorWapper")[0].innerHTML = showText;
 }
