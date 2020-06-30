@@ -18,12 +18,13 @@ install:
   - npm install hexo-generator-feed
   - npm install hexo-generator-sitemap --save
   - npm install hexo-generator-baidu-sitemap --save
-  - npm install
+  - npm i sync-request --save
 
 # 构建脚本
 script:
   - hexo clean
   - hexo new page prize
+  - hexo new page rank
   - hexo g
 branches:
   only:
