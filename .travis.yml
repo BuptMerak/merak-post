@@ -23,8 +23,8 @@ install:
 # 构建脚本
 script:
   - hexo clean
+  - hexo new page prize
   - hexo g
-
 branches:
   only:
     - master # 只对 master 分支进行构建
