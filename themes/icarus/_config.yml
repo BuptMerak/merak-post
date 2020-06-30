@@ -33,6 +33,7 @@ navbar:
         Tags: /tags
         Members: /members
         Calendar: "https://www.ctfhub.com/#/calendar"
+        Prizes&Achivement: /prize
     # Navigation bar links to be shown on the right
     links:
         #Download on GitHub:
