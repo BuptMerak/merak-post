@@ -25,7 +25,7 @@ script:
   - hexo clean
   - hexo new page prize
   - hexo new page rank
-  - hexo s
+  - hexo g
 branches:
   only:
     - master # 只对 master 分支进行构建
