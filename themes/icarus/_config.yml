@@ -32,7 +32,6 @@ navbar:
         Categories: /categories
         Tags: /tags
         Members: /members
-        Ranks: /rank
         Calendar: "https://www.ctfhub.com/#/calendar"
         Prizes&Achivement: /prize
     # Navigation bar links to be shown on the right
