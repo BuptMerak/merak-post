@@ -140,6 +140,7 @@
         },
         {
             "name":"BubbleGVM",
+            "core":1,
             "avatar":"https://s1.ax1x.com/2020/05/09/Y1KsmR.th.jpg",
             "solgn":"Just so so",
             "blog":"http://140.143.124.216/build/",
@@ -154,6 +155,7 @@
         },
         {
             "name":"LLeaves",
+            "core":1,
             "avatar":"https://s1.ax1x.com/2020/05/09/Y1MPA0.th.png",
             "solgn":"Never give up",
             "blog":"https://www.cnblogs.com/LLeaves/",
