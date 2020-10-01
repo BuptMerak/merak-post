@@ -30,7 +30,6 @@
             "avatar":"https://s1.ax1x.com/2020/05/11/YGtdte.th.jpg",
             "solgn":"正心，取势，明道，优术。",
             "blog":"https://inf.link/",  
-            "core":"1",
             "skill": "Web"
         },
         {
@@ -98,7 +97,6 @@
             "avatar":"https://s1.ax1x.com/2020/05/09/Y1uonKs.th.jpg",
             "solgn":"",
             "blog":"",
-            "core":"1",
             "skill": "Pwn"
         },
         {
@@ -212,14 +210,6 @@
             "skill": "Misc"
         },
         {
-            "name":"EloflyS",
-            "avatar":"https://s1.ax1x.com/2020/05/11/YGGsXV.th.jpg",
-            "solgn":"Reverse forever.",
-            "blog":"https://blog.csdn.net/yzaxiloveyou",
-            "core":"1",
-            "skill": "Re"
-        },
-        {
             "name":"Ac1d",
             "avatar":"https://s1.ax1x.com/2020/05/11/YGN4UO.th.jpg",
             "solgn":"日常被pwn打的小菜狗",
@@ -228,7 +218,6 @@
          },
         {
             "name":" corgi_m",
-            "core":"1",
              "avatar":"https://s1.ax1x.com/2020/05/11/YG0Kk6.th.jpg",
             "solgn":"&lt;?php @eval($_POST[c0rg1_333]);?&gt;",
             "blog":"",
